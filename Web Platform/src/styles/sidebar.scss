@@ -1,0 +1,33 @@
+@import "variables.module";
+
+.sidebar-items {
+    &.active {
+        background-color: $secondary-color;
+    }
+
+    span {color: $white-color;}
+
+    .icon-stroke {
+        stroke: $white-color;
+    }
+
+    .icon-fill {
+        fill: $white-color;
+    }
+    
+    &:hover {
+        &:not(.active) {
+            span {
+                color: $secondary-color;
+            }
+            
+            .icon-stroke {
+                stroke: $secondary-color;
+            }
+
+            .icon-fill {
+                fill: $secondary-color;
+            }
+        }
+    }
+}
