@@ -1,2 +1,1 @@
-# open-science-study-with-copilot-for-accessibility
-A study with the GitHub Copilot for evaluating its support for software accessibility
+This open-science project provides the files generated during the research. These include the diaries of two researchers who developed the web application, the inspection reports of each researcher's Pa11y, the prototype used as the basis for building the web application, and, finally, the source code of the web application.
